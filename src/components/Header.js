@@ -8,7 +8,7 @@ import {
   selectUserPhoto,
   setUserLoginDetails,
   setSignOutState,
-} from "../features/user/userSlice";
+} from "../reducers/userSlice";
 
 const Header = (props) => {
   const dispatch = useDispatch();
